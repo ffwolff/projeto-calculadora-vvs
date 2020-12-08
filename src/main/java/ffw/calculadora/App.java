@@ -26,6 +26,6 @@ public class App
         System.out.println("\nMultiplicação: " + resultado);
         resultado = calculadora.divisao(num1, num2);
         System.out.println("\nDivisão: " + resultado);
-        
+        entrada.close();
     }
 }

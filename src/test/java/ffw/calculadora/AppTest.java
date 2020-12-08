@@ -12,7 +12,6 @@ import org.mockito.Mockito;
 public class AppTest 
 {
     Calculadora calculadora;
-	private Calculadora calculadora2;
   
 
     @Before
