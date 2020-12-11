@@ -25,7 +25,7 @@ public class AppTest
      */
 
     @Test
-    public void testInstance(){
+    public void testInstanceZero(){
         
         assertEquals(0, calculadora.getInstanceCount());
     }
@@ -35,7 +35,7 @@ public class AppTest
      */
 
     @Test
-    public void testInstanceZero(){
+    public void testInstance(){
         Calculadora calcTeste = new Calculadora();
         assertEquals(1, calcTeste.getInstanceCount());
     }
